@@ -49,7 +49,7 @@ public class OfferDao {
     }
 
     //query and return multiple objects
-    // cRud method
+    // cRud method (create Read update delete)
     public List<Offer> getOffers() {
 
         String sqlStatement= "select * from offers";
